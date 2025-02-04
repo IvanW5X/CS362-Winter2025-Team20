@@ -8,15 +8,20 @@
     "dev": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "kai L",
   "license": "ISC",
-  "description": "",
+  "description": "mongodb",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.12.0",
-    "mongoose": "^8.9.5",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.9.6",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "CS362-WINTER2025-TEAM20-TALKTASK"
   }
 }
