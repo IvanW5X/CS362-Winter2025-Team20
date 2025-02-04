@@ -19,6 +19,10 @@ const envFilePath = path.resolve("../", "./.env");
 dotenv.config({ path: envFilePath });
 
 const app = express();
+app.use(express.json()); // Middleware to parse JSON requests
+
+// Use the task API routes
+app.use("/api/tasks", taskRoutes);
 
 export const connectServers = () => {
   const FRONTEND_URL = process.env.FRONTEND_URL;
